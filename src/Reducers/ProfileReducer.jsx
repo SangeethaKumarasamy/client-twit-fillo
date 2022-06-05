@@ -1,4 +1,4 @@
-import { LOAD_PROFILE, GET_PROFILE } from "../constants";
+import { LOAD_PROFILE, GET_PROFILE } from "../Constants";
 
 const initialState = {
   loading: false,

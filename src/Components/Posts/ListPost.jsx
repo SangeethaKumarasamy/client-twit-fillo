@@ -5,7 +5,7 @@ import FormControlLabel from "@material-ui/core/FormControlLabel";
 import AddPost from "./AddPost";
 import Post from "./Post";
 import { connect } from "react-redux";
-import { getPosts, getPostsByFollowingUsers } from "../../actions/postActions";
+import { getPosts, getPostsByFollowingUsers } from "../../Actions/PostActions";
 import LoadingPosts from "./LoadingPosts";
 
 class ListPost extends Component {

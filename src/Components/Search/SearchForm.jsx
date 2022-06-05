@@ -6,7 +6,7 @@ import { fade } from "@material-ui/core/styles/colorManipulator";
 import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
 
-import { searchUser } from "../../actions/profileActions";
+import { searchUser } from "../../Actions/ProfileActions";
 
 const styles = (theme) => ({
   search: {
