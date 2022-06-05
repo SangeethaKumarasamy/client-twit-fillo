@@ -1,10 +1,10 @@
 import axios from "axios";
 import { GET_ERRORS, SET_CURRENT_USER } from "../Constants";
-import SetAuthHeader from "../utils/SetAuthHeader";
+import SetAuthHeader from "../Utils/SetAuthHeader";
 
 export const loginUser = (userData) => (dispatch) => {
   axios
-    .post("http://localhost:5000/api/users/login", userData)
+    .post("http://localhost:7000/api/users/login", userData)
     .then((res) => {
       const { token } = res.data;
       localStorage.setItem("jwtToken", token);
